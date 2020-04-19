@@ -3,7 +3,7 @@
 const newsReader = {
 	body: document.getElementsByTagName('body'),
 	ads: document.querySelectorAll(
-		'img[src$=".gif"], a.static-sponsor, a[href*="ncell"], a[href*="esewa"], a[href*="khalti"], a[href*="imepay"], a[href*="bank"], a[href*="dishhome"], a[href*="insurance"]'
+		'img[src*=".gif"], img[class*="lazy"], a.static-sponsor, a[href*="ncell"], a[href*="esewa"], a[href*="khalti"], a[href*="imepay"], a[href*="bank"], a[href*="dishhome"], a[href*="insurance"]'
 	),
 	site: location.host,
 	adPanel: document.createElement('div'),

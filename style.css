@@ -1,3 +1,27 @@
+body {
+	margin: 0;
+}
+img {
+	height: auto;
+	max-width: 280px;
+	width: 100%;
+}
+.modal {
+	width: 300px;
+}
+.modal > * {
+	padding: 1rem;
+}
+.modal-header {
+	text-align: center;
+}
+.modal-body {
+	padding: 0 1rem;
+	margin: 0 0 1rem;
+}
+.modal-footer {
+	background-color: #fafafa;
+}
 .newsreader-sidebar-panel {
 	background-color: bisque;
 	height: 100vh;
