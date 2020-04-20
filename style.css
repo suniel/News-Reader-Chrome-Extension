@@ -23,7 +23,6 @@ img {
 	background-color: #fafafa;
 }
 .newsreader-sidebar-panel {
-	background-color: bisque;
 	height: 100vh;
 	width: 360px;
 	position: fixed;
@@ -31,6 +30,8 @@ img {
 	top: 0;
 }
 .adpanel {
-	background: black;
 	padding: 2rem;
+}
+.hidden {
+	display: none;
 }
