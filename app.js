@@ -9,6 +9,7 @@ const newsReader = {
 	adPanel: document.createElement('div'),
 
 	init() {
+		console.log(this.ads);
 		Array.from(this.ads).map((ad) => ad.parentNode.removeChild(ad));
 	},
 
@@ -30,7 +31,9 @@ const newsReader = {
 		console.log('Newsreader init');
 	},
 };
-
-newsReader.log();
-newsReader.appendAdPanel();
-newsReader.init();
+setTimeout(() => {
+	console.log('dom loaded');
+	newsReader.log();
+	newsReader.appendAdPanel();
+	newsReader.init();
+}, 500);

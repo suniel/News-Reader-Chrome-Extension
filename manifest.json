@@ -22,7 +22,8 @@
 	"permissions": ["activeTab"],
 	"content_scripts": [
 		{
-			"matches": ["*://*/*"],
+			"matches": ["*://*/*/*"],
+			"css": ["newscleaner.css"],
 			"js": ["app.js"]
 		}
 	],

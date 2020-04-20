@@ -1,0 +1,11 @@
+img[src*='.gif'],
+a.static-sponsor,
+a[href*='ncell'],
+a[href*='esewa'],
+a[href*='khalti'],
+a[href*='imepay'],
+a[href*='bank'],
+a[href*='dishhome'],
+a[href*='insurance'] {
+	display: none !important;
+}
