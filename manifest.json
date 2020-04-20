@@ -22,7 +22,36 @@
 	"permissions": ["activeTab"],
 	"content_scripts": [
 		{
-			"matches": ["*://*/*"],
+			"matches": [
+				"*://*.onlinekhabar.com/*",
+				"*://*.annapurnapost.com/*",
+				"*://*.arthasarokar.com/*",
+				"*://*.ekantipur.com/*",
+				"*://*.ratopati.com/*",
+				"*://*.news24nepal.tv/*",
+				"*://*.baahrakhari.com/*",
+				"*://*.medianp.com/*",
+				"*://*.purbelinews.com/*",
+				"*://*.nepalipatra.com/*",
+				"*://*.nepalitimes.com/*",
+				"*://*.setopati.com/*",
+				"*://*.ujyaaloonline.com/*",
+				"*://*.weeklynepal.com/*",
+				"*://*.khabarhub.com/*",
+				"*://*.thahakhabar.com/*",
+				"*://*.lokpath.com/*",
+				"*://*.sutranews.com/*",
+				"*://*.dcnepal.com/*",
+				"*://*.nepaljapan.com/*",
+				"*://*.onlinepana.com/*",
+				"*://*.nayapage.com/*",
+				"*://*.lokaantar.com/*",
+				"*://*.nepallive.com/*",
+				"*://*.janaboli.com/*",
+				"*://*.reportersnepal.com/*",
+				"*://*.sancharkendra.com/*",
+				"*://*.dainikonline.com/*"
+			],
 			"css": ["newscleaner.css"],
 			"js": ["app.js"]
 		}
