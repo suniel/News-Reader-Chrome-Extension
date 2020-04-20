@@ -31,9 +31,7 @@ const newsReader = {
 		console.log('Newsreader init');
 	},
 };
-setTimeout(() => {
-	console.log('dom loaded');
-	newsReader.log();
-	newsReader.appendAdPanel();
-	newsReader.init();
-}, 500);
+
+newsReader.log();
+newsReader.appendAdPanel();
+newsReader.init();
